@@ -1,0 +1,11 @@
+{
+"autoload": {
+    "psr-4": {
+        "MVC\\":"app/"
+    }
+},
+    "require": {
+        "dcblogdev/pdo-wrapper": "^2.0",
+        "wixel/gump": "^1.11"
+    }
+}
