@@ -1,5 +1,5 @@
 {
-    "name": "mvc/mvc",
+    "name": "vendor/mvc",
     "type": "project",
     "license": "MIT",
     "autoload": {
