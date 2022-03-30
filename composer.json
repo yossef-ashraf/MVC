@@ -1,9 +1,18 @@
 {
-"autoload": {
-    "psr-4": {
-        "MVC\\":"app/"
-    }
-},
+    "name": "mvc/mvc",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+            "psr-4": {
+                "MVC\\":"app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yossef-ashraf",
+            "email": "yossefff2001@gmail.com"
+        }
+    ],
     "require": {
         "dcblogdev/pdo-wrapper": "^2.0",
         "wixel/gump": "^1.11"

@@ -11,13 +11,9 @@ class ComposerStaticInit6cc0fdccfceffead6d44e8dfa434452d
     );
 
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'V' => 
         array (
-            'Rakit\\Validation\\' => 17,
-        ),
-        'M' => 
-        array (
-            'MVC\\' => 4,
+            'Vendor\\Mvc\\' => 11,
         ),
         'G' => 
         array (
@@ -30,13 +26,9 @@ class ComposerStaticInit6cc0fdccfceffead6d44e8dfa434452d
     );
 
     public static $prefixDirsPsr4 = array (
-        'Rakit\\Validation\\' => 
+        'Vendor\\Mvc\\' => 
         array (
-            0 => __DIR__ . '/..' . '/rakit/validation/src',
-        ),
-        'MVC\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'GUMP\\' => 
         array (
