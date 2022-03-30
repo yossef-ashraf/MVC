@@ -6,7 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Vendor\\Mvc\\' => array($baseDir . '/src'),
+    'Rakit\\Validation\\' => array($vendorDir . '/rakit/validation/src'),
+    'MVC\\' => array($baseDir . '/app'),
     'GUMP\\' => array($vendorDir . '/wixel/gump/src'),
     'Dcblogdev\\PdoWrapper\\' => array($vendorDir . '/dcblogdev/pdo-wrapper/src'),
 );
